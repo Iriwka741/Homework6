@@ -65,7 +65,16 @@
 #################################
 #5.Напишіть функцію, яка отримує два списки як параметр і повертає список, що містить елементи обох списків
 
-def merge_lists(list1, list2):
- merged_list = list1 + list2
+#def merge_lists(list1, list2):
+# merged_list = list1 + list2
 
- return merged_list
+ #return merged_list
+
+###############################################################
+#6.Напишіть функцію, яка обчислює ступінь кожного елемента списку цілих
+def power_list(lst, power):
+ result = []
+ for x in lst:
+   result.append(x**power)
+
+ return result
