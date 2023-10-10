@@ -72,9 +72,9 @@
 
 ###############################################################
 #6.Напишіть функцію, яка обчислює ступінь кожного елемента списку цілих
-def power_list(lst, power):
- result = []
- for x in lst:
-   result.append(x**power)
+#def power_list(lst, power):
+# result = []
+# for x in lst:
+ #  result.append(x**power)
 
- return result
+# return result
