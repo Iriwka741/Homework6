@@ -55,9 +55,17 @@
 
 # 4.Напишіть функцію, яка видаляє зі списку ціле задане число
 
-def remove_and_count(lst, number):
- count = 0
- while number in lst:
-    lst.remove(number)
-    count += 1
- return count
+#def remove_and_count(lst, number):
+ #count = 0
+# while number in lst:
+  #  lst.remove(number)
+  #  count += 1
+ #return count
+
+#################################
+#5.Напишіть функцію, яка отримує два списки як параметр і повертає список, що містить елементи обох списків
+
+def merge_lists(list1, list2):
+ merged_list = list1 + list2
+
+ return merged_list
