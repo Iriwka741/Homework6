@@ -33,20 +33,31 @@
 
 #3.Напишіть функцію, яка визначає кількість простих чисел у списку цілих
 
-def is_prime(num):
-  if num <= 1:
-    return False
+#ef is_prime(num):
+ # if num <= 1:
+   # return False
 
-  for i in range(2, int(num**0.5) + 1):
-    if num % i == 0:
-      return False
+ # for i in range(2, int(num**0.5) + 1):
+  #  if num % i == 0:
+   #   return False
 
-  return True
+ # return True
 
-def count_primes_in_list(lst):
-  count = 0
+#def count_primes_in_list(lst):
+  #count = 0
 
-  for num in lst:
-    if is_prime(num):
-     count += 1
-  return count
+ # for num in lst:
+  #  if is_prime(num):
+  #   count += 1
+ # return count
+
+ #################################
+
+# 4.Напишіть функцію, яка видаляє зі списку ціле задане число
+
+def remove_and_count(lst, number):
+ count = 0
+ while number in lst:
+    lst.remove(number)
+    count += 1
+ return count
